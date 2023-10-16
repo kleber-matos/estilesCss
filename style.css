@@ -1,0 +1,75 @@
+/* 
+
+  Seletor {
+    propriedade: valor
+  }
+
+*/
+
+body {
+  background-color: aqua;
+}
+
+* {
+  margin: 0;
+}
+
+main {
+  width: 450px;
+  height: 300px;
+  border: solid red;
+  background-color: indianred;
+}
+
+#container {
+  width: 200px;
+  height: 250px;
+  border: solid black;
+}
+
+.box1 {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+}
+
+.box2 {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+}
+
+.box3 {
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+}
+
+/* p {
+  color: green;
+}
+
+p {
+  color: purple;
+} */
+
+/* 
+
+0. seletor universal (tem menor peso)
+
+1. type selector (tag)
+
+10. classes e attribute selector
+
+100. id selector 
+
+
+*/
+
+p {
+  color: purple;
+}
+
+.peso {
+  color: rgb(3, 0, 192);
+}
